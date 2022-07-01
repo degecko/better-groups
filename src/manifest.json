@@ -1,0 +1,34 @@
+{
+    "background": {
+        "service_worker": "background.js"
+    },
+    "commands": {
+        "toggle-group-1": {
+            "suggested_key": { "default": "Alt+1" },
+            "description": "Toggle group #1"
+        },
+        "toggle-group-2": {
+            "suggested_key": { "default": "Alt+2" },
+            "description": "Toggle group #2"
+        },
+        "toggle-group-3": {
+            "suggested_key": { "default": "Alt+3" },
+            "description": "Toggle group #3"
+        },
+        "toggle-group-4": {
+            "suggested_key": { "default": "Alt+4" },
+            "description": "Toggle group #4"
+        }
+    },
+    "icons": {
+        "72": "icons/72.png",
+        "128": "icons/128.png"
+    },
+    "manifest_version": 3,
+    "name": "Better Groups",
+    "permissions": [
+        "tabGroups",
+        "tabs"
+    ],
+    "version": "0.1.0"
+}
